@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">" 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Hello Android from NetBeans"/>
+              android:id="@+id/main_linear_layout"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <Button android:id="@+id/main_connect_button"
+            android:layout_width="fill_parent"
+            android:layout_height="200px"
+            android:padding="8px"
+            android:text="Connect"/>
+
+    <Button android:id="@+id/main_settings_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="8px"
+            android:text="Settings"/>
+
+    <TextView android:id="@+id/main_address_tv"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="8px"
+              android:text="Server Address"/>
+
+    <EditText android:id="@+id/main_address_et"
+              android:layout_width="240px"
+              android:layout_height="wrap_content"
+              android:padding="8px"
+              android:textSize="18sp"/>
+
+    <TextView android:id="@+id/main_info_tv"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="8px"
+              android:text=""/>
 </LinearLayout>
